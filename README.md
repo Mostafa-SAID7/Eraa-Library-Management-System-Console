@@ -38,7 +38,7 @@ Run the application:
 dotnet run
 ```
 ### Project Structure
-
+```
 AdvancedLibraryManagementSystem/
 ├── Program.cs                # Main application entry point and UI menus
 ├── Models/
@@ -50,6 +50,7 @@ AdvancedLibraryManagementSystem/
 └── Data/
     ├── books.json           # Persistent book data
     └── users.json           # Persistent user data
+```
 ##### Usage
 
 - On first run, an admin user is created automatically (`admin` / `admin`)  
