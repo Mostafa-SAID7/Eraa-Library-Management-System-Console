@@ -1,59 +1,52 @@
 ---
-name: Bug report
-about: Create a report to help us improve
-title: ''
-labels: ''
-assignees: ''
+name: ✨ Feature Request
+about: Suggest a new feature or enhancement for the application
+title: "[Feature] <brief title of feature>"
+labels: enhancement
+assignees: Mostafa-SAID7
+---
+
+# ✨ Feature Request
+
+Thanks for taking the time to improve the Advanced Library Management System!  
+Please fill out this form to describe your feature proposal.
 
 ---
 
-name: 🚀 Feature Request
-description: Suggest a new feature or idea
-labels: [enhancement]
-title: '[Feature]: '
-body:
-  - type: textarea
-    id: feature-description
-    attributes:
-      label: Describe the feature
-      description: What do you want to see added or changed?
-      placeholder: I want to be able to...
-    validations:
-      required: true
-  - type: textarea
-    id: benefit
-    attributes:
-      label: What is the benefit?
-      description: How would this feature help users?
+## 📋 Summary
+
+> Provide a clear and concise description of the feature or enhancement.
 
 ---
 
-**Describe the bug**
-A clear and concise description of what the bug is.
+## 🎯 Motivation
 
-**To Reproduce**
-Steps to reproduce the behavior:
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
-4. See error
+> Why should this feature be added? What problem does it solve or improve?
 
-**Expected behavior**
-A clear and concise description of what you expected to happen.
+---
 
-**Screenshots**
-If applicable, add screenshots to help explain your problem.
+## 💡 Proposed Solution
 
-**Desktop (please complete the following information):**
- - OS: [e.g. iOS]
- - Browser [e.g. chrome, safari]
- - Version [e.g. 22]
+> Describe your idea for how this feature could be implemented or integrated.
 
-**Smartphone (please complete the following information):**
- - Device: [e.g. iPhone6]
- - OS: [e.g. iOS8.1]
- - Browser [e.g. stock browser, safari]
- - Version [e.g. 22]
+---
 
-**Additional context**
-Add any other context about the problem here.
+## 🎨 Alternatives Considered
+
+> Are there other approaches or workarounds? Why is this your preferred solution?
+
+---
+
+## 🤝 Additional Context
+
+> Add any other context, screenshots, or references that may help us understand your request.
+
+---
+
+<div align="center">
+
+<a href="mailto:m.ssaid356@gmail.com" target="_blank">
+  <img src="https://img.shields.io/badge/Need_Help%3F-Contact_Maintainer-blue?style=for-the-badge&logo=gmail&logoColor=white" alt="Contact Maintainer"/>
+</a>
+
+</div>
