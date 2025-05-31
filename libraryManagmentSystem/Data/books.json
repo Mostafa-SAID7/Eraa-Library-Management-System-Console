@@ -1,0 +1,65 @@
+[
+  {
+    "Title": "The Great Gatsby",
+    "Author": "F. Scott Fitzgerald",
+    "Category": "Classic",
+    "BorrowedBy": null,
+    "DueDate": null
+  },
+  {
+    "Title": "1984",
+    "Author": "George Orwell",
+    "Category": "Dystopian",
+    "BorrowedBy": null,
+    "DueDate": null
+  },
+  {
+    "Title": "Clean Code",
+    "Author": "Robert C. Martin",
+    "Category": "Programming",
+    "BorrowedBy": null,
+    "DueDate": null
+  },
+  {
+    "Title": "The Pragmatic Programmer",
+    "Author": "Andrew Hunt and David Thomas",
+    "Category": "Programming",
+    "BorrowedBy": null,
+    "DueDate": null
+  },
+  {
+    "Title": "Design Patterns: Elements of Reusable Object-Oriented Software",
+    "Author": "Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides",
+    "Category": "Programming",
+    "BorrowedBy": null,
+    "DueDate": null
+  },
+  {
+    "Title": "Introduction to Algorithms",
+    "Author": "Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein",
+    "Category": "Programming",
+    "BorrowedBy": null,
+    "DueDate": null
+  },
+  {
+    "Title": "Effective C#",
+    "Author": "Bill Wagner",
+    "Category": "Programming",
+    "BorrowedBy": null,
+    "DueDate": null
+  },
+  {
+    "Title": "Code Complete",
+    "Author": "Steve McConnell",
+    "Category": "Programming",
+    "BorrowedBy": null,
+    "DueDate": null
+  },
+  {
+    "Title": "Refactoring: Improving the Design of Existing Code",
+    "Author": "Martin Fowler",
+    "Category": "Programming",
+    "BorrowedBy": null,
+    "DueDate": null
+  }
+]
