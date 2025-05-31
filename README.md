@@ -1,9 +1,15 @@
 # Advanced Library Management System Console App
-## Author
+<div align="center">
 
-**Mostafa SAID**  
-- GitHub: [@Mostafa-SAID7](https://github.com/Mostafa-SAID7)
+  <a href="https://github.com/Mostafa-SAID7" target="_blank" style="margin-right: 10px;">
+    <img src="https://img.shields.io/badge/GitHub-@Mostafa--SAID7-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+  </a>
 
+  <a href="https://dotnet.microsoft.com/community" target="_blank" style="margin-left: 10px;">
+    <img src="https://img.shields.io/badge/.NET-Community-512BD4?style=for-the-badge&logo=.net&logoColor=white" alt=".NET Community"/>
+  </a>
+
+</div>
 
 A comprehensive console-based library management system built in C# that allows users to register, login, borrow, return, and manage books with advanced features including admin controls, overdue tracking, and fine calculation.
 
@@ -71,12 +77,6 @@ AdvancedLibraryManagementSystem/
 ## License
 
 This project is open source and available under the [MIT License](https://opensource.org/licenses/MIT).
-
-
-Author
-Your Name
-
-GitHub: @yourusername
 
 ## Acknowledgments
 
