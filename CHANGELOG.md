@@ -1,115 +1,54 @@
-# Changelog
+# 📜 Changelog
 
-All notable changes to the Temperature Converter Console App will be documented in this file.
-
-The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
-and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
-
-## [Unreleased]
-
-### Planned
-- Add support for Rankine and Réaumur temperature scales
-- Implement batch conversion from CSV file input
-- Add configuration file for user preferences
-- Create GUI version using WPF
-- Add comprehensive unit test suite
-
-## [1.2.0] - 2024-12-15
-
-### Added
-- Enhanced input validation with better error messages
-- Support for decimal precision configuration
-- Option to repeat conversions without restarting the application
-- Clear screen functionality between conversions
-
-### Changed
-- Improved user interface with better formatting and colors
-- Updated conversion formulas for higher precision
-- Refactored code structure for better maintainability
-
-### Fixed
-- Fixed rounding errors in Kelvin conversions
-- Corrected input validation for negative Kelvin temperatures
-- Fixed application crash when entering non-numeric values
-
-## [1.1.0] - 2024-11-20
-
-### Added
-- Interactive menu system for better user experience
-- Input validation for temperature values and menu choices
-- Support for negative temperature values
-- Exit confirmation prompt
-
-### Changed
-- Reorganized code into separate classes for better modularity
-- Improved error handling and user feedback
-- Updated console output formatting
-
-### Fixed
-- Fixed infinite loop when invalid menu option is selected
-- Corrected Fahrenheit to Kelvin conversion formula
-- Fixed application hanging on invalid input
-
-## [1.0.1] - 2024-11-05
-
-### Fixed
-- Fixed critical bug in Celsius to Fahrenheit conversion
-- Corrected typos in user interface text
-- Fixed application not closing properly on exit
-
-### Changed
-- Minor improvements to code comments and documentation
-
-## [1.0.0] - 2024-10-28
-
-### Added
-- Initial release of Temperature Converter Console App
-- Core temperature conversion functionality
-- Support for Celsius, Fahrenheit, and Kelvin scales
-- Basic console user interface
-- Input validation for numeric values
-- All six possible temperature conversions:
-  - Celsius to Fahrenheit
-  - Celsius to Kelvin
-  - Fahrenheit to Celsius
-  - Fahrenheit to Kelvin
-  - Kelvin to Celsius
-  - Kelvin to Fahrenheit
-
-### Features
-- Simple and intuitive command-line interface
-- Accurate temperature conversion calculations
-- Error handling for invalid inputs
-- Cross-platform compatibility (.NET Core)
+All notable changes to this project will be documented in this file.  
+This project follows [Semantic Versioning](https://semver.org/).
 
 ---
 
-## Version History Summary
+## [v1.1.0] - 2025-05-31
 
-- **v1.2.0**: Enhanced user experience and precision improvements
-- **v1.1.0**: Added interactive menu and input validation
-- **v1.0.1**: Critical bug fixes and minor improvements
-- **v1.0.0**: Initial release with core functionality
+### ✨ Added
+- Styled `README.md`, `CODE_OF_CONDUCT.md`, `SECURITY.md`, and contribution templates
+- `CONTRIBUTING.md` with full contributor guidelines
+- `SAMPLE_OUTPUT.md` showing full console interaction
+- `PULL_REQUEST_TEMPLATE.md` for standardized PRs
+- `CHANGELOG.md` file for version tracking
+- Enhanced badges and layout styles in markdown
 
-## Contributing to Changelog
-
-When contributing to this project, please:
-
-1. Add your changes to the "Unreleased" section
-2. Follow the format: `### [Added/Changed/Fixed/Removed]`
-3. Use present tense for descriptions
-4. Include issue numbers when applicable
-5. Move items from "Unreleased" to a new version section when releasing
-
-## Changelog Categories
-
-- **Added**: New features
-- **Changed**: Changes in existing functionality
-- **Deprecated**: Soon-to-be removed features
-- **Removed**: Removed features
-- **Fixed**: Bug fixes
-- **Security**: Vulnerability fixes
+### 🔐 Security
+- Introduced `SECURITY.md` with email badge for private vulnerability reporting
+- Added `.NET` safety tips and user data handling suggestions
 
 ---
 
-*This changelog is automatically updated with each release. For the complete commit history, please visit the [GitHub repository](https://github.com/Mostafa-SAID7/Temperature-Converter-Console-App).*
+## [v1.0.0] - 2025-05-30
+
+### 🚀 Initial Release
+- Core library system built with C#
+- Admin and user authentication (default: `admin/admin`)
+- Basic operations:
+  - Register, login, logout
+  - Borrow and return books
+  - View available books
+- Fine calculation for overdue returns
+- Persistent data storage with `users.json` and `books.json`
+- Modular code structure:
+  - `/Models` for `User.cs`, `Book.cs`
+  - `/Services` for `UserManager.cs`, `Library.cs`
+  - `/Data` for JSON persistence
+
+---
+
+## 🛠️ Upcoming
+
+See [Future Enhancements](README.md#future-enhancements) for roadmap ideas.
+
+---
+
+<div align="center">
+
+<a href="mailto:m.ssaid356@gmail.com" target="_blank">
+  <img src="https://img.shields.io/badge/Contact-Maintainer-blue?style=for-the-badge&logo=gmail&logoColor=white" alt="Contact Maintainer"/>
+</a>
+
+</div>
