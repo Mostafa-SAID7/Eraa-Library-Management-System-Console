@@ -1,0 +1,40 @@
+name: 🧪 Run Unit Tests
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: ⬇️ Checkout Code
+      uses: actions/checkout@v3
+
+    - name: 🧰 Setup .NET SDK
+      uses: actions/setup-dotnet@v3
+      with:
+        dotnet-version: '8.0.x' # Update this to match your .NET version
+
+    - name: 📦 Restore Dependencies
+      run: dotnet restore
+
+    - name: 🛠️ Build Solution
+      run: dotnet build --no-restore --configuration Release
+
+    - name: 🧪 Run Tests
+      run: |
+        echo "🔍 Looking for test projects..."
+        test_projects=$(find . -type f -name "*Tests.csproj")
+
+        if [ -z "$test_projects" ]; then
+          echo "⚠️ No test projects found. Skipping test step."
+        else
+          for proj in $test_projects; do
+            echo "▶️ Running tests for $proj"
+            dotnet test "$proj" --no-build --verbosity normal
+          done
+        fi
