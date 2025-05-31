@@ -76,8 +76,9 @@ AdvancedLibraryManagementSystem/
 
 ## License
 
-This project is open source and available under the  
-<a href="LICENSE" target="_blank" rel="noopener noreferrer">
+- This project is open source and available under the  
+
+- <a href="LICENSE" target="_blank" rel="noopener noreferrer">
   <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge&logo=opensourceinitiative&logoColor=white" alt="MIT License"/>
 </a>
 
