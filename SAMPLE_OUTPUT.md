@@ -1,64 +1,117 @@
+# 📦 Sample Output
 
-## Usage
+This document provides sample console output to demonstrate how the **Advanced Library Management System** operates from the user’s perspective.
 
-1. Launch the application
-2. Follow the on-screen prompts to:
-   - Enter the temperature value
-   - Select the source temperature scale
-   - Select the target temperature scale
-3. View the converted result
-4. Choose to perform another conversion or exit
+---
 
-### Example Usage
-```
-Welcome to Temperature Converter!
+## ✅ Application Start
 
-Enter temperature value: 100
-Select source scale:
-1. Celsius
-2. Fahrenheit
-3. Kelvin
-Choice: 1
+- Register
+- Login
+- Exit
+  
+Enter your choice:
+  
+## 🧾 Register as a New User
+Enter your full name: Sarah Connor
+Enter a username: sarahc
+Enter a password: ********
 
-Select target scale:
-1. Celsius
-2. Fahrenheit
-3. Kelvin
-Choice: 2
+✅ Registration successful! You can now log in.
 
-Result: 100°C = 212°F
-```
+---
 
-## Temperature Conversion Formulas
+## 🔐 Login as Admin
 
-The application uses the following standard conversion formulas:
+Enter username: admin
+Enter password: admin
 
-**Celsius to Fahrenheit:**
-```
-°F = (°C × 9/5) + 32
-```
+✅ Login successful. Welcome, Admin!
 
-**Celsius to Kelvin:**
-```
-K = °C + 273.15
-```
+View All Books
 
-**Fahrenheit to Celsius:**
-```
-°C = (°F - 32) × 5/9
-```
+Add Book
 
-**Fahrenheit to Kelvin:**
-```
-K = (°F - 32) × 5/9 + 273.15
-```
+View All Users
 
-**Kelvin to Celsius:**
-```
-°C = K - 273.15
-```
+Logout
 
-**Kelvin to Fahrenheit:**
-```
-°F = (K - 273.15) × 9/5 + 32
-```
+Enter your choice:
+
+---
+
+## 📚 Add New Book (Admin)
+
+Enter book title: Clean Code
+Enter author name: Robert C. Martin
+Enter genre: Programming
+Enter number of copies: 5
+
+✅ Book added successfully!
+
+---
+
+## 👥 View All Users (Admin)
+
+List of Registered Users:
+
+Sarah Connor
+
+John Doe
+
+Alice Smith
+
+---
+
+## 🔓 Login as Regular User
+
+Enter username: sarahc
+Enter password: ********
+
+✅ Login successful. Welcome, Sarah Connor!
+
+View Available Books
+
+Borrow Book
+
+Return Book
+
+Logout
+
+Enter your choice:
+
+---
+
+## 📖 Borrow a Book
+
+Available Books:
+
+Clean Code by Robert C. Martin
+
+The Pragmatic Programmer by Andy Hunt
+
+Enter the number of the book to borrow: 1
+
+✅ You have borrowed "Clean Code". Due in 7 days.
+
+---
+
+## ⏳ Return Book with Fine
+
+Enter the title of the book to return: Clean Code
+
+📅 This book is 3 days overdue.
+💵 Overdue fine: $3
+
+✅ Book returned successfully.
+
+---
+
+## 🚪 Exit
+
+Thank you for using the Library Management System. Goodbye!
+
+---
+
+> ⚠️ Note: All console interactions are text-based. Fine calculation, password hiding, and validation are handled automatically.
+
