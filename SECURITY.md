@@ -1,119 +1,43 @@
-# 🔒 Security Policy
+# Security Policy
 
-## 🔒 Our Commitment to Security
+## Supported Versions
 
-The security of the Temperature Converter Console App and its users is a top priority. We take all security vulnerabilities seriously and are committed to addressing them promptly and transparently.
+We take security seriously. Please refer to the table below to see which versions of this project are currently being supported with security updates.
 
-## 📋 Table of Contents
+| Version       | Supported          |
+|---------------|--------------------|
+| Latest (main) | ✅ Yes              |
+| Older builds  | ❌ No               |
 
-- [Supported Versions](#supported-versions)
-- [Reporting Security Vulnerabilities](#reporting-security-vulnerabilities)
-- [Security Best Practices](#security-best-practices)
-- [Known Security Considerations](#known-security-considerations)
-- [Security Update Process](#security-update-process)
-- [Disclosure Policy](#disclosure-policy)
-- [Security Resources](#security-resources)
+## Reporting a Vulnerability
 
-## 🔧 Supported Versions
+If you discover a security vulnerability, we kindly ask that you report it privately to the project maintainer so that we can take prompt and responsible action.
 
-| Version | Supported          | Status              |
-| ------- | ------------------ | ------------------- |
-| 1.2.x   | ✅ Supported        | Active development  |
-| 1.1.x   | ✅ Security Only    | Maintenance mode    |
-| 1.0.x   | ❌ Not Supported    | End of Life         |
-| < 1.0   | ❌ Not Supported    | Legacy versions     |
+<div align="center">
 
-### Support Timeline
+<a href="mailto:m.ssaid356@gmail.com" target="_blank">
+  <img src="https://img.shields.io/badge/Report-Security_Issue-red?style=for-the-badge&logo=protonmail&logoColor=white" alt="Report Security Issue"/>
+</a>
 
-- **1.2.x**: Full support including features and security updates  
-- **1.1.x**: Security updates only for 6 months after 1.2 release  
-- **Legacy**: No further updates or support
+</div>
 
-## 🚨 Reporting Security Vulnerabilities
+- Please do **not** open public issues for vulnerabilities.
+- Include detailed steps to reproduce the issue if possible.
+- We aim to respond within **72 hours**.
 
-If you discover a vulnerability, please report it responsibly.
+## Security Best Practices
 
-### 📧 How to Report
+We recommend the following for anyone deploying or using this application:
 
-**DO NOT use GitHub issues for reporting security vulnerabilities.**
+- Keep your .NET runtime up to date.
+- Do not expose sensitive files (like `users.json`) publicly.
+- Use secure passwords and consider enabling hashed password storage.
+- Regularly update dependencies and third-party libraries.
 
-### 📞 Contact Information
+## Responsible Disclosure
 
-- **Maintainer**: Mostafa Said  
-- [![Email](https://img.shields.io/badge/Email-m.ssaid356%40gmial.com-blue?style=for-the-badge&logo=gmail)](mailto:m.ssaid356@gmial.com)  
-- [![GitHub](https://img.shields.io/badge/GitHub-Mostafa--SAID7-black?style=for-the-badge&logo=github)](https://github.com/Mostafa-SAID7)  
-- [![Repo](https://img.shields.io/badge/Repo-Temperature--Converter--Console--App-brightgreen?style=for-the-badge&logo=github)](https://github.com/Mostafa-SAID7/Temperature-Converter-Console-App)
-
-### 📝 What to Include
-
-- Description of the issue  
-- Steps to reproduce  
-- Affected versions  
-- Severity and impact  
-- Proof of concept (optional but helpful)
-
-## 🛡️ Security Best Practices
-
-### For Users
-
-- Download only from the [official GitHub repo](https://github.com/Mostafa-SAID7/Temperature-Converter-Console-App)  
-- Use latest supported version  
-- Don’t enter sensitive data  
-- Run in a secure environment
-
-### For Developers
-
-- Validate and sanitize input  
-- Implement safe exception handling  
-- Perform code reviews  
-- Use static code analysis tools
-
-## 🔍 Known Security Considerations
-
-### Low-Risk Areas
-
-- Console-only app  
-- No networking or data storage  
-- Safe math-based logic
-
-### Potential Risks
-
-- Edge case inputs  
-- Risk if file I/O is added later
-
-## 🔄 Security Update Process
-
-- Review vulnerability  
-- Develop & test fix  
-- Perform security review  
-- Release with changelog  
-- Optional coordinated disclosure
-
-### Severity Levels
-
-| Severity | Response Time | Fix Deadline | Example                                 |
-|----------|---------------|--------------|-----------------------------------------|
-| Critical | < 24 hrs     | < 7 days     | Remote code execution                   |
-| High     | < 48 hrs     | < 14 days    | Privilege escalation                    |
-| Medium   | < 7 days     | < 30 days    | Information disclosure                  |
-| Low      | < 14 days    | < 90 days    | Minor bugs, non-sensitive issues        |
-
-## 📢 Disclosure Policy
-
-- We follow **responsible disclosure**  
-- You will be credited if desired  
-- Public disclosure typically after patch release or 90 days max
-
-## 🔗 Security Resources
-
-- [.NET Security Guidelines](https://learn.microsoft.com/en-us/dotnet/standard/security/)  
-- [OWASP Cheat Sheets](https://cheatsheetseries.owasp.org/)  
-- [CVE Database](https://cve.mitre.org/)
-
-## 🙏 Acknowledgments
-
-Thank you to all security researchers who contribute to a safer open source ecosystem.
+We appreciate responsible security disclosures. If you report a valid issue and help us resolve it, you may be credited in the project’s changelog or contributors list (with your permission).
 
 ---
 
-*Last updated: May 2025*
+*Thank you for helping to keep our users and data safe!*
