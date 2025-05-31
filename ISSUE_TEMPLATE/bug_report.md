@@ -1,63 +1,73 @@
 ---
-name: Bug report
-about: Create a report to help us improve
-title: ''
-labels: ''
-assignees: ''
+name: 🐞 Bug Report
+about: Report a problem or unexpected behavior in the application
+title: "[Bug] <describe the bug here>"
+labels: bug
+assignees: Mostafa-SAID7
+---
+
+# 🐞 Bug Report
+
+Thank you for helping improve the Advanced Library Management System! Please fill out the form below to help us fix the issue as quickly as possible.
 
 ---
 
-name: 🛠️ Bug Report
-description: Report a bug or unexpected behavior
-labels: [bug]
-title: '[Bug]: '
-body:
-  - type: textarea
-    id: what-happened
-    attributes:
-      label: What happened?
-      description: Describe the issue you encountered
-      placeholder: Something went wrong...
-    validations:
-      required: true
-  - type: input
-    id: steps
-    attributes:
-      label: Steps to reproduce
-      placeholder: "1. Run ...\n2. Click ...\n3. See error"
-  - type: input
-    id: environment
-    attributes:
-      label: Environment (OS, .NET version, etc.)
-      placeholder: "Windows 10, .NET 6.0"
+## 📌 Summary
+
+> Provide a clear and concise description of the issue.
+
 ---
 
-**Describe the bug**
-A clear and concise description of what the bug is.
+## 🧪 Steps to Reproduce
 
-**To Reproduce**
-Steps to reproduce the behavior:
+> What did you do to trigger the bug?
+
 1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
+2. Click on '...'
+3. Scroll down to '...'
 4. See error
 
-**Expected behavior**
-A clear and concise description of what you expected to happen.
+---
 
-**Screenshots**
-If applicable, add screenshots to help explain your problem.
+## 🤔 Expected Behavior
 
-**Desktop (please complete the following information):**
- - OS: [e.g. iOS]
- - Browser [e.g. chrome, safari]
- - Version [e.g. 22]
+> What did you expect to happen?
 
-**Smartphone (please complete the following information):**
- - Device: [e.g. iPhone6]
- - OS: [e.g. iOS8.1]
- - Browser [e.g. stock browser, safari]
- - Version [e.g. 22]
+---
 
-**Additional context**
-Add any other context about the problem here.
+## 😵 Actual Behavior
+
+> What actually happened instead?
+
+---
+
+## 🖼️ Screenshots (if applicable)
+
+> Paste screenshots, logs, or videos to show the bug.
+
+---
+
+## 💻 Environment
+
+| Item            | Value                    |
+|-----------------|--------------------------|
+| OS              | e.g. Windows 11 / Linux  |
+| .NET Version    | e.g. .NET 8.0            |
+| App Version     | e.g. v1.1.0              |
+
+---
+
+## 📁 Additional Context
+
+> Add any other context about the problem here (related files, configs, etc.)
+
+---
+
+<div align="center">
+
+<a href="mailto:m.ssaid356@gmail.com" target="_blank">
+  <img src="https://img.shields.io/badge/Need_Help%3F-Contact_Maintainer-blue?style=for-the-badge&logo=gmail&logoColor=white" alt="Contact Maintainer"/>
+</a>
+
+</div>
+
